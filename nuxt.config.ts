@@ -8,4 +8,8 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@pinia-plugin-persistedstate/nuxt",
   ],
+  app: {
+    baseURL: "/deploy-vue/",
+    buildAssetsDir: "assets",
+  },
 });

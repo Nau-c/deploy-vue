@@ -38,8 +38,8 @@ const appConfig = defuFn(inlineAppConfig);
 
 const _inlineRuntimeConfig = {
   "app": {
-    "baseURL": "/",
-    "buildAssetsDir": "/_nuxt/",
+    "baseURL": "/deploy-vue/",
+    "buildAssetsDir": "assets",
     "cdnURL": ""
   },
   "nitro": {
@@ -48,12 +48,12 @@ const _inlineRuntimeConfig = {
       "/__nuxt_error": {
         "cache": false
       },
-      "/_nuxt/builds/meta/**": {
+      "/assets/builds/meta/**": {
         "headers": {
           "cache-control": "public, max-age=31536000, immutable"
         }
       },
-      "/_nuxt/builds/**": {
+      "/assets/builds/**": {
         "headers": {
           "cache-control": "public, max-age=1, immutable"
         }
