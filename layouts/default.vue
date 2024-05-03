@@ -19,7 +19,7 @@
 
 <style scoped>
 .app-container {
-  background-image: url('/image/fondo.jpg'); 
+  background-image: url('~/aseets/fondo.jpg'); 
   background-size: cover;
   background-position: center;
   min-height: 100vh;
