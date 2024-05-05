@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   // test
   app: {
     baseURL: "/deploy-vue/",
-    buildAssetsDir: "assets",
+    // buildAssetsDir: "assets",
   },
   //Lo vemos en clase pasarlo de true a false para evitar en produccion devtools
   devtools: { enabled: false },
